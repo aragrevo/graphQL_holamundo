@@ -39,3 +39,10 @@ npm install @types/compression @types/express @types/cors @types/express-graphql
 "start:dev": "npm run build:dev",
 "build:dev": "nodemon 'src/server.ts' --exec 'ts-node' src/sercer.ts -e ts,graphql"
 ```
+
+## Apollo Server
+
+```
+npm uninstall express-graphql
+npm install apollo-server-express
+```
